@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textoTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textoSeleccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selecciona_region"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/textoTitulo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp" />
+
+    <ImageView
+        android:id="@+id/anillo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/anillo"
+        android:contentDescription="@string/anillo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:id="@+id/gondor"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/gondor"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/gondor"
+        app:layout_constraintCircle="@id/anillo"
+        app:layout_constraintCircleRadius="150dp"
+        app:layout_constraintCircleAngle="270" />
+
+    <ImageButton
+        android:id="@+id/rohan"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/rohan"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/rohan"
+        app:layout_constraintCircle="@id/anillo"
+        app:layout_constraintCircleRadius="150dp"
+        app:layout_constraintCircleAngle="30" />
+
+    <ImageButton
+        android:id="@+id/mordor"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/mordor"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/mordor"
+        app:layout_constraintCircle="@id/anillo"
+        app:layout_constraintCircleRadius="150dp"
+        app:layout_constraintCircleAngle="150" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
