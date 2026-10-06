@@ -1,0 +1,15 @@
+<!-- Esto es el xml que carga la traduccion en español(La default)-->
+
+<resources>
+
+    <string name="app_name">Mapamundi Tierra Media</string>
+
+    <string name="titulo">Mapamundi de la Tierra Media</string>
+    <string name="selecciona_region">Selecciona una región</string>
+
+    <string name="anillo">El Anillo Único</string>
+    <string name="gondor">Gondor</string>
+    <string name="rohan">Rohan</string>
+    <string name="mordor">Mordor</string>
+
+</resources>

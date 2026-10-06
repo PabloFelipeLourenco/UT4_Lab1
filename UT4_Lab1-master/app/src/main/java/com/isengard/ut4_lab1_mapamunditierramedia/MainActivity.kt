@@ -1,0 +1,13 @@
+package com.isengard.ut4_lab1_mapamunditierramedia
+
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+
+class MainActivity : AppCompatActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        setContentView(R.layout.activity_main) //Esto carga el main activity con el mapa mundi
+    }
+}
