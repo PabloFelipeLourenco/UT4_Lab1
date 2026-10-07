@@ -48,8 +48,8 @@
         android:background="@android:color/transparent"
         android:contentDescription="@string/gondor"
         app:layout_constraintCircle="@id/anillo"
-        app:layout_constraintCircleRadius="150dp"
-        app:layout_constraintCircleAngle="270" />
+        app:layout_constraintCircleRadius="150dp" 
+        app:layout_constraintCircleAngle="270" /> <!--app:layout_constraintCircleRadius="150dp" es la distancia que tiene que dejar en cuanto al anillo-->
 
     <ImageButton
         android:id="@+id/rohan"
@@ -60,7 +60,7 @@
         android:contentDescription="@string/rohan"
         app:layout_constraintCircle="@id/anillo"
         app:layout_constraintCircleRadius="150dp"
-        app:layout_constraintCircleAngle="30" />
+        app:layout_constraintCircleAngle="30" /> <!--app:layout_constraintCircle="@id/anillo" es la distancia a que se le debe de dejar-->
 
     <ImageButton
         android:id="@+id/mordor"
